@@ -38,7 +38,7 @@ body {
   height: 100vh;
   width: 100vw;
   font-family: 'Montserrat', sans-serif;
-  background-color: darkblue;
+  background-color: white;
   color: white;
 }
 
@@ -48,7 +48,7 @@ body {
 .logo {
   border-left: 3px solid red;
   padding-left: 2rem;
-  color: red;
+  color: darkblue;
   cursor: pointer;
 }
 
@@ -58,8 +58,8 @@ nav {
   position: fixed;
   height: 5rem;
   width: 100%;
-  background-color: darkblue;
-  box-shadow: 0 0 10px 20px darkblue;
+  background-color: white;
+  box-shadow: 0 0 10px 20px white;
   z-index: 2;
 }
 
@@ -79,7 +79,7 @@ nav {
 nav a {
   font-size: .8rem;
   font-weight: 600;
-  color: white;
+  color: darkblue;
   transition: .5s;
   font-weight: 600;
 
@@ -136,7 +136,7 @@ header {
 header h1 {
   font-size: 3rem;
   font-family: 'Monoton', cursive;
-  color: silver;
+  color: darkblue;
   font-weight: 600;
 }
 
@@ -148,7 +148,7 @@ header h2 {
 }
 
 .header__container p {
-  color: white;
+  color: black;
   font-family: 'Montserrat', sans-serif;
   font-size: 1rem;
   padding: 1rem 0;
@@ -161,10 +161,10 @@ header h2 {
 
 
 header span {
-  color: red;
-  font-family: 'Montserrat', sans-serif;
+  color: black;
+  font-family: 'Montez', cursive;
   font-weight: 600;
-  font-size: 1rem;
+  font-size: 2rem;
 }
 
 
@@ -260,11 +260,11 @@ section {
 
 .card {
   padding: 2rem 2rem;
-  box-shadow: 0 0 10px 0 white;
+  box-shadow: 0 0 10px 0 blue;
   border-radius: 4rem 0 4rem 0;
-  background-color: silver;
+  background-color: darkblue;
   transition: .5s;
-  color: darkblue;
+  color: white;
 }
 
 .card:hover{
@@ -273,7 +273,7 @@ section {
 
 
 .explanation p {
-  color: darkblue;
+  color: white;
   text-align: justify;
 }
 
@@ -330,7 +330,7 @@ section {
 
 .explanation__tag p {
   font-size: .9rem;
-  color: darkblue;
+  color: white;
   text-align: center;
 }
 
@@ -358,12 +358,14 @@ section {
 
 }
 
-.process p{
-  color: wheat;
-}
+
 
 .process h2{
-  color: white;
+  color: darkblue;
+}
+
+.process p{
+  color: darkblue;
 }
 
 #process__container {
@@ -395,7 +397,7 @@ section {
 .contact__container p {
   text-align: justify;
   line-height: 30px;
-  color: wheat;
+  color: darkblue;
 }
 
 .contact__container h3 {
@@ -438,7 +440,7 @@ section {
 .former {
   background-color: darkblue;
   padding: 0;
-  box-shadow: 0 0 10px 0 silver;
+  box-shadow: 0 0 10px 0 blue;
   color: white;
 
 }
@@ -539,7 +541,7 @@ section {
 @media screen and (max-width:1024px) {
 
   header span {
-    font-size: 1rem;
+    font-size: 2rem;
   }
 
   .open__btn {
@@ -643,12 +645,16 @@ section {
 
   .process h2 {
     font-size: 1.2rem;
+    color: darkblue;
   }
 
+  .process p{
+    color: darkblue;
+  }
 
   header h1 {
     font-size: 3rem;
-    color: white;
+    color: darkblue;
   }
 
 
@@ -698,7 +704,7 @@ section {
 @media screen and (max-width:600px) {
 
   .socials {
-    padding: .3rem .3rem;
+    padding: .5rem .5rem;
     padding-bottom: .7rem;
     border: 1px solid blue;
     background-color: blue;
@@ -784,19 +790,23 @@ section {
 
   .process h2 {
     font-size: 1.2rem;
+    color: white;
+    
   }
 
   .process p {
     font-size: 1rem;
+    color: white;
   }
 
   header span {
-    font-size: 1rem;
+    font-size: 2rem;
   }
 
   header h1 {
-    font-size: 2rem;
+    font-size: 3rem;
     text-align: center;
+    font-family: 'Montez', cursive;
   }
 
   header h2 {
