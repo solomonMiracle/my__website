@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@600&family=Bruno+Ace+SC&family=Charmonman:wght@400;700&family=Cinzel:wght@600&family=Genos&family=Monoton&family=Montez&family=Montserrat:wght@400;600&family=Neucha&family=Nixie+One&family=Sacramento&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Charmonman:wght@400;700&family=Cinzel:wght@600&family=Monoton&family=Montez&family=Montserrat+Alternates:wght@400;600;700&family=Montserrat+Subrayada:wght@400;700&family=Montserrat:wght@400;600;700;800&family=Pacifico&family=Ysabeau:wght@400;500;600;700&display=swap');
 
 
 * {
@@ -38,17 +37,18 @@ body {
   height: 100vh;
   width: 100vw;
   font-family: 'Montserrat', sans-serif;
-  background-color: white;
+  background-color: darkblue;
   color: white;
+  
 }
 
 
 /* ===========================================================  Logo and Navigation ==========================================*/
 
 .logo {
-  border-left: 3px solid red;
+  border-left: 3px solid white;
   padding-left: 2rem;
-  color: darkblue;
+  color: white;
   cursor: pointer;
 }
 
@@ -56,10 +56,10 @@ body {
 
 nav {
   position: fixed;
-  height: 5rem;
+  height: 6rem;
   width: 100%;
-  background-color: white;
-  box-shadow: 0 0 10px 20px white;
+  background-color: darkblue;
+  
   z-index: 2;
 }
 
@@ -79,7 +79,7 @@ nav {
 nav a {
   font-size: .8rem;
   font-weight: 600;
-  color: darkblue;
+  color: white;
   transition: .5s;
   font-weight: 600;
 
@@ -103,9 +103,9 @@ nav li {
 .socials {
   padding: 1rem .5rem;
   padding-bottom: .7rem;
-  border: 1px solid blue;
-  background-color: blue;
-  box-shadow: 0 0 5px 0 blue;
+  border: 1px solid darkblue;
+  background-color: transparent;
+  box-shadow: 0 0 5px 0 darkblue;
   margin: .4rem;
   transition: .5s;
 }
@@ -131,13 +131,14 @@ header {
   padding-top: 10rem;
   padding-bottom: 8rem;
   border-bottom: none;
+  min-height: 100vh;
 }
 
 header h1 {
-  font-size: 3rem;
-  font-family: 'Monoton', cursive;
-  color: darkblue;
+  font-size: 3.5rem;
+  color: white;
   font-weight: 600;
+  font-family: 'Monoton', cursive;
 }
 
 
@@ -148,10 +149,11 @@ header h2 {
 }
 
 .header__container p {
-  color: black;
-  font-family: 'Montserrat', sans-serif;
+  color: white;
+  font-family: 'Montserrat Alternates', sans-serif;
   font-size: 1rem;
   padding: 1rem 0;
+  font-weight: 400;
 
 }
 
@@ -161,10 +163,10 @@ header h2 {
 
 
 header span {
-  color: black;
-  font-family: 'Montez', cursive;
+  color: blue;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 600;
-  font-size: 2rem;
+  font-size: 1rem;
 }
 
 
@@ -212,7 +214,7 @@ span {
 .Download:hover {
   color: white;
   background-color: darkred;
-  box-shadow: 0 0 10px 0 red;
+  box-shadow: 0 0 10px 0 yellow;
   transform: scale(2);
 
 }
@@ -223,6 +225,7 @@ footer {
   height: 5rem;
   width: 100%;
   padding: 2rem 0;
+  background-color: darkblue;
 }
 
 .footer__container {
@@ -232,9 +235,9 @@ footer {
 }
 
 .footer__container p {
-  color: red;
+  color: white;
   font-family: 'Montez', cursive;
-  font-weight: 600;
+  font-weight: 400;
   font-size: 1.5rem;
 }
 
@@ -260,7 +263,7 @@ section {
 
 .card {
   padding: 2rem 2rem;
-  box-shadow: 0 0 10px 0 blue;
+  box-shadow: 0 0 10px 0 white;
   border-radius: 4rem 0 4rem 0;
   background-color: darkblue;
   transition: .5s;
@@ -361,11 +364,11 @@ section {
 
 
 .process h2{
-  color: darkblue;
+  color: silver;
 }
 
 .process p{
-  color: darkblue;
+  color: white;
 }
 
 #process__container {
@@ -375,7 +378,7 @@ section {
 .process__title {
   display: flex;
   justify-content: center;
-  color: blue;
+  color: red;
 }
 
 #process__icon {
@@ -397,7 +400,7 @@ section {
 .contact__container p {
   text-align: justify;
   line-height: 30px;
-  color: darkblue;
+  color: white;
 }
 
 .contact__container h3 {
@@ -405,18 +408,13 @@ section {
 }
 
 .contact__container h1 {
-  color: blue;
+  color: red;
   text-align: center;
 }
 
 
-
-.proj__container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: black;
-  padding: 10rem 2.5rem;
+#proj__container h1{
+color: white;
 }
 
 
@@ -438,11 +436,15 @@ section {
 }
 
 .former {
-  background-color: darkblue;
+  background-color: red;
   padding: 0;
   box-shadow: 0 0 10px 0 blue;
   color: white;
 
+}
+
+.fomix h1{
+  color: blue;
 }
 
 .fox {
@@ -464,9 +466,9 @@ section {
   flex-direction: column;
   align-items: center;
   row-gap: 2rem;
-  font-family: 'Montez', cursive;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 600;
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 
 .form__container label {
@@ -482,11 +484,11 @@ section {
 .form__container input {
   outline: none;
   border: none;
-  background-color: blue;
+  background-color: white;
   font-size: 1rem;
   padding-left: .3rem;
   font-family: 'Montserrat', sans-serif;
-  color: white;
+  color: black;
 }
 
 
@@ -501,18 +503,20 @@ section {
   padding: .7rem 1rem;
   box-shadow: 0 0 5px 0 skyblue;
   font-family: 'Montez', cursive;
+  border-radius: 10px;
   font-size: 1.5rem;
   cursor: pointer;
   transition: .5s;
   font-weight: 600;
-  background-color: wheat;
-  color: black;
+  background-color: skyblue;
+  color: red;
 }
 
 
 .submit__btn input:hover {
-  background-color: red;
-  box-shadow: 0 0 5px 0 red;
+  background-color: darkred;
+  color: red;
+  box-shadow: 0 0 5px 0 white;
 }
 
 
@@ -541,7 +545,7 @@ section {
 @media screen and (max-width:1024px) {
 
   header span {
-    font-size: 2rem;
+    font-size: 1rem;
   }
 
   .open__btn {
@@ -574,7 +578,7 @@ section {
 
 
   nav {
-    height: 3rem;
+    height: 4rem;
   }
 
 
@@ -583,7 +587,7 @@ section {
     width: 100vw;
     height: 80vh;
     top: 0rem;
-    background-color: rgba(0, 20, 100, 0.9);
+    background-color: white;
     box-shadow: 0 0 10px 0 black;
     z-index: 2;
     display: none;
@@ -597,7 +601,7 @@ section {
     width: 100vw;
     height: 80vh;
     top: 0rem;
-    background-color: rgba(0, 20, 100, 0.9);
+    background-color: white;
     box-shadow: 0 0 10px 0 black;
     z-index: 2;
     display: none;
@@ -613,9 +617,10 @@ section {
   .show__menu {
     position: absolute;
     width: 100vw;
-    height: 80vh;
+    overflow: hidden;
+    height: 100vh;
     top: 0rem;
-    background-color: rgba(0, 20, 100, 0.9);
+    background-color: red;
     box-shadow: 0 0 10px 0 black;
     z-index: 2;
     display: block;
@@ -625,9 +630,8 @@ section {
 
 
   .show__menu a {
-    color: silver;
-    font-size: 2rem;
-    font-family: 'Sacramento', cursive;
+    color: white;
+    font-size: 1rem;
 
   }
 
@@ -645,16 +649,16 @@ section {
 
   .process h2 {
     font-size: 1.2rem;
-    color: darkblue;
+    color: silver;
   }
 
   .process p{
-    color: darkblue;
+    color: white;
   }
 
   header h1 {
     font-size: 3rem;
-    color: darkblue;
+    color: white;
   }
 
 
@@ -706,10 +710,10 @@ section {
   .socials {
     padding: .5rem .5rem;
     padding-bottom: .7rem;
-    border: 1px solid blue;
-    background-color: blue;
-    box-shadow: 0 0 5px 0 blue;
-    margin: .4rem;
+    border:none;
+    outline: none;
+    background-color: darkblue;
+    margin: .1rem;
     transition: .5s;
   }
 
@@ -800,21 +804,27 @@ section {
   }
 
   header span {
-    font-size: 2rem;
+    font-size: 1rem;
   }
 
   header h1 {
-    font-size: 3rem;
+    font-size: 2rem;
     text-align: center;
-    font-family: 'Montez', cursive;
+    font-family: 'Monoton', cursive;
   }
 
   header h2 {
     font-size: 1.4rem
   }
 
+
+  header{
+    padding-bottom: 1rem;
+  }
+
+
   .header__container p {
-    font-size: 1rem;
+    font-size: .8rem;
   }
 
   .contact__container h1 {
@@ -885,10 +895,48 @@ section {
     width: 17rem;
   }
 
-  footer p {
-    font-size: 1rem;
+  .footer__container p {
     text-align: center;
+    font-size: 1.3rem;
 
+  }
+
+  #About p{
+    font-size: .8rem;
+  }
+
+  #About{
+    padding-bottom: 5rem;
+    padding-top: 0rem;
+  }
+
+  .card {
+    padding: 1rem 1rem;
+    box-shadow: 0 0 10px 0 red;
+    border-radius: 4rem 0 4rem 0;
+    background-color: darkblue;
+    transition: .5s;
+    color: white;
+  }
+  
+  .card:hover{
+   transform: none;
+  }
+  
+  .title h2{
+    font-size: 1rem;
+  }
+  
+  .explanation p {
+    color: white;
+    font-size: .8rem;
+    text-align: justify;
+  }
+  
+  .explanation__tag p{
+    color: white;
+    font-size: .8rem;
+    text-align: justify;
   }
 
 

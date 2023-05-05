@@ -17,7 +17,7 @@ const Navbar = () => {
         
     return ( 
         <nav>
-            <div className="container nav__container">
+            <div className="container nav__container" >
                 <div className="logo"><h3>Miracle Agholor</h3></div>
 
                 <div  ><button className='open__btn' onClick={() =>setShowMenu(false)}><UilApps/></button></div>
@@ -27,8 +27,8 @@ const Navbar = () => {
                     <ul>
                       <li><Link href='/'>Home  |</Link></li>
                       <li><Link href='#About'>About | </Link></li>
-                      <li><Link href='/Projects'>Projects | </Link></li>
-                      <li><Link href='/Contact'>Contact | </Link></li>
+                      <li><Link href='#Projects'>Projects | </Link></li>
+                      <li><Link href='#Contact'>Contact | </Link></li>
                     </ul>
                 </div>
                 
