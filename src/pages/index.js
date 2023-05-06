@@ -33,7 +33,7 @@ const Home = () => {
             <br />
             <h2>Web Developer<UilStar /></h2>
             <br />
-            <div className='header__intro'><p>I'm a full stack Developer with years of experience as a React JS developer and 7 months as a React Native Andriod Developer.</p></div>
+            <div className='header__intro'><p>I'm a full stack Developer with two years of experience as a React JS developer and 7 months as a React Native Andriod Developer.</p></div>
             <br />
             <br />
           </div>
@@ -223,7 +223,7 @@ const Home = () => {
               <h1>My Projects</h1>
               <br />
               <div id='proj__container'>
-          <h1>Please click the on the Github Link below to view my past and recent Projects: <Link className='project__link' href={'https://github.com/solomonMiracle'} >solomonMiracle</Link> </h1>
+          <h1>Please click on the Github Link below to view my past and recent Projects: <Link className='project__link' href={'https://github.com/solomonMiracle'} >solomonMiracle</Link> </h1>
           </div>
         </div>
       </section>
