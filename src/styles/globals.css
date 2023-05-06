@@ -508,7 +508,7 @@ color: white;
   cursor: pointer;
   transition: .5s;
   font-weight: 600;
-  background-color: skyblue;
+  background-color: darkblue;
   color: red;
 }
 
@@ -550,7 +550,7 @@ color: white;
 
   .open__btn {
     display: block;
-    color: blue;
+    color: white;
     cursor: pointer;
   }
 
@@ -805,6 +805,7 @@ color: white;
 
   header span {
     font-size: 1rem;
+    color: silver;
   }
 
   header h1 {
@@ -895,6 +896,13 @@ color: white;
     width: 17rem;
   }
 
+  footer{
+    background-color: darkblue;
+    box-shadow: 0 0 5px 0 red;
+    padding-top: 2rem;
+    padding-bottom: 5rem;
+  }
+
   .footer__container p {
     text-align: center;
     font-size: 1.3rem;
@@ -939,5 +947,9 @@ color: white;
     text-align: justify;
   }
 
+
+nav{
+  box-shadow: 0 0 10px 0 red;
+}
 
 }
